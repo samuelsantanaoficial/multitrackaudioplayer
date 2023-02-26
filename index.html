@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multitrack Audio Player</title>
+</head>
+
+<body>
+    <h1>Multitrack Audio Player</h1>
+
+    <audio id="track1" src="audio/track1.mp3"></audio>
+    <audio id="track2" src="audio/track2.mp3"></audio>
+    <audio id="track3" src="audio/track3.mp3"></audio>
+    <audio id="track4" src="audio/track4.mp3"></audio>
+
+    <button id="play" onclick="play()">Play</button>
+    <button id="stop" onclick="stop()">Stop</button>
+    <br>
+    <br>
+    <input type="checkbox" id="track1cb" onclick="toggleTrack(1)">Track 1
+    <br>
+    <input type="checkbox" id="track2cb" onclick="toggleTrack(2)">Track 2
+    <br>
+    <input type="checkbox" id="track3cb" onclick="toggleTrack(3)">Track 3
+    <br>
+    <input type="checkbox" id="track4cb" onclick="toggleTrack(4)">Track 4
+    <br>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
